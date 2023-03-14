@@ -1,0 +1,31 @@
+.btn1{
+     display: block;
+  border: 1px solid #00ffaa;
+  border-radius: 5px;
+  padding: 4px;
+  width: 300px;
+  font-size:40px;
+  margin:300px 550px   ;
+  cursor: pointer;
+  color:#ffffff;
+}
+.btn1:hover{
+    background-color: crimson;
+    color:indigo
+}
+.product{
+  color:aqua;
+}
+.watch-btn {
+  display: block;
+  border: 1px solid #e06ba2;
+  border-radius: 5px;
+  padding: 4px;
+  width: 120px;
+  cursor: pointer;
+  color:#29f5b1;
+}
+.watch-btn:hover{
+  background-color:#e06ba2;
+
+}
