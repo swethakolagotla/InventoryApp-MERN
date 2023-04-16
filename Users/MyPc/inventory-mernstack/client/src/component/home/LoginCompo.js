@@ -34,7 +34,7 @@ const [signInData, setSignInData] = useState({
     axios.post("http://localhost:5000/api/loginuser", signInData).then((res) => {
       let response = res.data;
       if (response.success === true) {
-        localStorage.setItem("token", response.authtoken);
+        localStorage.getItem("token", response.authtoken);
         navigate("/main");
       } else {
         console.log("token not present");
